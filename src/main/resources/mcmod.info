@@ -1,0 +1,16 @@
+[
+{
+  "modid": "IGI|DeepResonanceIntegration",
+  "name": "InGameInfo-XML Deep Resonance Integration",
+  "description": "Adds tags for Deep Resonance data",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["smbarbour"],
+  "credits": "McJty for Deep Resonance, and Lunatrius for InGameInfo-XML",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
