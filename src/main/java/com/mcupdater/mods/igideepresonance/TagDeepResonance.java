@@ -2,12 +2,7 @@ package com.mcupdater.mods.igideepresonance;
 
 import com.github.lunatrius.ingameinfo.tag.Tag;
 import com.github.lunatrius.ingameinfo.tag.registry.TagRegistry;
-import elec332.core.world.WorldHelper;
 import mcjty.deepresonance.items.RadiationMonitorItem;
-import mcjty.lib.varia.GlobalCoordinate;
-import mcjty.rftoolsdim.dimensions.DimensionInformation;
-import mcjty.rftoolsdim.dimensions.DimensionStorage;
-import mcjty.rftoolsdim.dimensions.RfToolsDimensionManager;
 import net.minecraftforge.fml.common.FMLCommonHandler;
 
 public abstract class TagDeepResonance extends Tag
