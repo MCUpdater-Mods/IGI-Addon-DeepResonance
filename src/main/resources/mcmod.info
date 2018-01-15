@@ -1,6 +1,6 @@
 [
 {
-  "modid": "IGI|DeepResonanceIntegration",
+  "modid": "igi|deepresonanceintegration",
   "name": "InGameInfo-XML Deep Resonance Integration",
   "description": "Adds tags for Deep Resonance data",
   "version": "${version}",
