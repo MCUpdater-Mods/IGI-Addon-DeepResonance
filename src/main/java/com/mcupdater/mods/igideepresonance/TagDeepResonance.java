@@ -3,7 +3,7 @@ package com.mcupdater.mods.igideepresonance;
 import com.github.lunatrius.ingameinfo.tag.Tag;
 import com.github.lunatrius.ingameinfo.tag.registry.TagRegistry;
 import mcjty.deepresonance.items.RadiationMonitorItem;
-import net.minecraftforge.fml.common.FMLCommonHandler;
+import net.minecraftforge.fml.common.FMLLog;
 
 public abstract class TagDeepResonance extends Tag
 {
@@ -32,6 +32,6 @@ public abstract class TagDeepResonance extends Tag
 	}
 
 	public void log(Tag tag, Throwable ex) {
-		FMLCommonHandler.instance().getFMLLogger().warn(IGIDeepResonance.metadata.modId + ":" + tag.getName(), ex);
+		FMLLog.log.warn(IGIDeepResonance.metadata.modId + ":" + tag.getName(), ex);
 	}
 }
